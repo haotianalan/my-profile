@@ -1,0 +1,122 @@
+body{
+ background-color: white;
+ color: #8884FF;
+ font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+      color: #084887;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 5px;
+    font-size: 43px;
+}
+
+h2{
+    color: #DE1A1A
+
+}
+
+
+
+
+/* Custom design with class */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+
+}
+
+
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	margin: 20px 0px;
+	text-align: center;
+
+
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: #084887;
+	color: white;
+	padding: 14px 20px;
+	border-radius: 4px;
+}
+
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb blue;
+}
+
+.list-inline i:hover {
+	
+	background-color: rgba(230, 230, 230, 1);
+	border-radius: 5px;
+	padding: 5px 5px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+    font-size: 20px;
+
+
+}
+
+#wechat-green {
+	color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
